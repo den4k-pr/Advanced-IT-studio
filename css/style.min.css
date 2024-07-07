@@ -179,16 +179,13 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
   transition: 0.3s;
 }
 
 .header-link {
-  padding-right: 40px;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -229,7 +226,7 @@ a {
 
 .header-normal {
   text-align: center;
-  padding-top: 120px;
+  padding-top: 250px;
 }
 
 .header3-title {
@@ -880,7 +877,6 @@ a {
 
   .checkbox:checked ~ .header__list {
     display: block;
-    width: 360px;
     position: absolute;
     top: 70px;
     left: 0;
@@ -921,12 +917,6 @@ a {
     font-size: 14px;
     margin-left: 10px;
     margin-left: -120px;
-  }
-
-  .burder-list {
-    max-width: 290px;
-    margin-right: auto;
-    margin-left: auto;
   }
 
   .header-link {
